@@ -37,11 +37,14 @@ public class javamongo {
 		
 		
 		Document doc1 = new Document("name", "Naga Lakshmi");
+                Document doc1 = new Document("name", "Geetha"):
 		doc1.append("id", 102);
 		doc1.append("Subscribers", 10000000);
 		doc1.append("Genre", "cooking");
 		collection.insertOne(doc1);
 		System.out.println("Insert is completed");
+
+			 
 		
 		// Listing mongo documents
 		
